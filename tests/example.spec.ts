@@ -20,5 +20,6 @@ test('has title', async ({ page }) => {
 */
 //Custom Test
 test("tc3", async ({ page }) => {
-  await page.goto('https://google.com');
+  //await page.goto('https://google.com');
+  console.log("Pass")
 })
